@@ -18,6 +18,7 @@ value=float(1.0/n);
 rank_array=[value] * n;
 #all the array elements are initialised with the value which was calculated.
 
+print("Iterations are as follows\n")
 print(rank_array)
 #printing the array matrix
 
@@ -62,5 +63,18 @@ while(x[0]!=iteration):
    #the value of x[0] is incremented by one.
    rank_array=new_rank_array
    #rank_array is initialised with the array which contains the updated rank value.
+
+
+large=[0]
+large[0]=0
+#to get the page with the highest rank
+for index,item in enumerate(rank_array,start=1):
+   if(item>large[0]):
+   #every item is compared with the large value, if satisfied below code is executed.
+      large[0]=item
+      node=index
+      
+print node,"is the important page whoose rank is",large[0]
+#the most important page and its rank is printed.
    
 
