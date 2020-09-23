@@ -1,5 +1,5 @@
 # page_rank
-The program is mainly concer with the calculation of page rank values for each of the page and then updating them.Initially the input for 
+The program is mainly concerned with the calculation of page rank values for each of the page and then updating them.Initially the input for 
 the program is the matrix which consists of the link between the nodes.Finally we obtain the page which is most important with help of the 
 ranks which are assigned to them.The concept behind the implementation is as follows.
 
