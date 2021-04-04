@@ -55,7 +55,7 @@ def number_of_outlinks(j,i):
    #the calculated value of count is returned.
 
 x=[0]
-while(x[0]!=iteration):
+while(x[0]!=int(iteration)):
 #new rank is updated until the value in the iteration is satisfied.
    new_rank_array=update_matix(rank_array);
    #function to update the matrix is called.
@@ -74,7 +74,7 @@ for index,item in enumerate(rank_array,start=1):
       large[0]=item
       node=index
       
-print node,"is the important page whoose rank is",large[0]
+print (node,"is the important page whoose rank is",large[0])
 #the most important page and its rank is printed.
    
 
